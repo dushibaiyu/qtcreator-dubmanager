@@ -32,7 +32,7 @@ Run Qt Creator and enable the plugin on ```Help -> About Plugins``` page. Restar
 
 #Build requirements
 1. Qt >= 5.4.0
-1. Qt Creator >= 3.3.0 (with sources for plugins building, of course)
+1. Qt Creator >= 4.0.0 (with sources for plugins building, of course)
 
 #Implementation notes
 The plugin uses ```dub``` executable for generating correct project information. The plugin parses ```dub``` output for describing any projects but the file ```dub.json``` (or ```dub.sdl```) itself is not parsed by the plugin.
